@@ -1,0 +1,33 @@
+.form{
+	background-color: $c-lightest; 
+	box-shadow: 0px 4px 40px rgba(116, 130, 150, 0.2);
+	border-radius: 3px;
+	padding: 27px 0 96px;
+
+	&__group{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	&__input{
+		width: 100%;
+		padding: 2px 15px;
+		background-color: $c-lightest;
+		font-size: 16px;
+		line-height: 36px;
+		border-radius: 3px;
+		border: 1px solid rgba(116, 130, 150, 0.2);
+		box-sizing: border-box;
+		letter-spacing: 0.0125em;
+
+		&::placeholder{
+			color: $c-light-gray;
+		}
+
+		&:focus, &:active{
+			color: $c-darkest;
+			border: 1px solid #326FFF;
+			outline: none;
+		}
+	}
+}
