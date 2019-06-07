@@ -1,4 +1,4 @@
-# voxustest
+# Voxus Test
 
 ## Requirements
 
@@ -9,7 +9,7 @@ I recommend using `node@^10.15.1`, `npm@6.4.1` and `gulp-cli@2.0.1`.
 ## Running the project
 
 ```
-	cd voxustes
+	cd vox
 	npm i
 ```
 
