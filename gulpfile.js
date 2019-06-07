@@ -49,7 +49,7 @@ const js = () =>
     .pipe(babel({
       presets: ['@babel/preset-env']
     }))
-    .pipe(concat('finish_him.js'))
+    .pipe(concat('scripts.js'))
     .pipe(dest(`${STATIC_DIR}/js`))
     .pipe(bs.stream());
 
