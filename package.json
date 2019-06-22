@@ -6,7 +6,7 @@
     "dev": "gulp",
     "prod": "gulp production"
   },
-  "author": "Omelete Company",
+  "author": "Thays",
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.3.1",
